@@ -49,6 +49,18 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  var aleman = 1;
+    var mandarin = 2;
+    var ingles = 3;
+    
+    if (idioma === 1) {
+        return 'Guten Tag!';
+    } else if (idioma === 2) {
+        return 'Ni Hao!';
+    } else if (idioma === 3) {
+        return 'Hello!';
+    } else
+        return 'ingrese un valor valido'
 }
 
 function colors(color) {
